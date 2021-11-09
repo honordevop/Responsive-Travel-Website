@@ -117,7 +117,7 @@ window.addEventListener('scroll', scrollActive)
 const sr = ScrollReveal({
     distance: '60px',
     duration: 2800,
-    reset: true
+    reset: false
 })
 
 sr.reveal(`.home__data, .home__social-link, .home__info,
